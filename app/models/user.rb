@@ -31,7 +31,7 @@ class User < ActiveRecord::Base
             'count' => 50,
             "html" => "Signed Copy<br>First Script",
             "class" => "five",
-            "image" => "assets/refer/blade-explain@2x.png"
+            "image" => "refer/blade-explain@2x.png"
         }
     ]
 
