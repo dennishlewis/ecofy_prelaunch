@@ -10,29 +10,23 @@ class User < ActiveRecord::Base
 
     REFERRAL_STEPS = [
         {
-            'count' => 5,
-            "html" => "Audio<br>Story",
+            'count' => 0,
+            "html" => "Resource<br>Guide",
             "class" => "two",
             "image" =>  "refer/cream-tooltip@2x.png"
         },
         {
-            'count' => 10,
-            "html" => "Original BEARIORS<br>postcard",
+            'count' => 5,
+            "html" => "2016 ECOFY<br>calendar",
             "class" => "three",
             "image" => "refer/truman@2x.png"
         },
         {
-            'count' => 25,
-            "html" => "Entire Postcard<br>Collection",
+            'count' => 10,
+            "html" => "Win a 4K<br>Energy Star TV",
             "class" => "four",
             "image" => "refer/winston@2x.png"
         },
-        {
-            'count' => 50,
-            "html" => "Signed Copy<br>First Script",
-            "class" => "five",
-            "image" => "refer/blade-explain@2x.png"
-        }
     ]
 
     private
