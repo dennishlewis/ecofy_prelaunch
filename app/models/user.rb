@@ -23,7 +23,7 @@ class User < ActiveRecord::Base
         },
         {
             'count' => 10,
-            "html" => "Win a 4K<br>Energy Star TV",
+            "html" => "Win a $2,000<br>Gift Card",
             "class" => "four",
             "image" => "refer/winston@2x.png"
         },
