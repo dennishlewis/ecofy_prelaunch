@@ -248,7 +248,11 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #074E6F;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffff0b+0,1eddb0+100&1+0,0.8+19,0.8+89,1+100 */
+background: -moz-linear-gradient(top, rgba(255,255,11,1) 0%, rgba(212,249,42,0.8) 19%, rgba(55,225,158,0.8) 89%, rgba(30,221,176,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,11,1) 0%,rgba(212,249,42,0.8) 19%,rgba(55,225,158,0.8) 89%,rgba(30,221,176,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,11,1) 0%,rgba(212,249,42,0.8) 19%,rgba(55,225,158,0.8) 89%,rgba(30,221,176,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff0b', endColorstr='#1eddb0',GradientType=0 ); /* IE6-9 */
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -278,11 +282,11 @@ html.home{
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: image-url("refer/logo.png") 0 0 no-repeat;
-	background-size: 106px 19px;
+	background: image-url("refer/logo@2x.png") 0 0 no-repeat;
+	background-size: 211px 37px;
 	height: 19px;
 	width: 106px;
-	margin-top: 15px;
+	margin-top: 5px;
 }
 
 #refer .hero{
