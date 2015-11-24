@@ -16,15 +16,21 @@ class User < ActiveRecord::Base
             "image" =>  "refer/cream-tooltip@2x.png"
         },
         {
-            'count' => 5,
-            "html" => "2016 ECOFY<br>calendar",
+            'count' => 1,
+            "html" => "Win a $100<br>Gift Card",
             "class" => "three",
+            "image" =>  "refer/ref@2x.png"
+        },
+        {
+            'count' => 5,
+            "html" => "2016 ECOFY<br>Calendar",
+            "class" => "four",
             "image" => "refer/truman@2x.png"
         },
         {
             'count' => 10,
             "html" => "Win a $2,000<br>Gift Card",
-            "class" => "four",
+            "class" => "five",
             "image" => "refer/winston@2x.png"
         },
     ]
