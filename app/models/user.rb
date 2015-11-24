@@ -29,7 +29,7 @@ class User < ActiveRecord::Base
         },
         {
             'count' => 10,
-            "html" => "Win a $2,000<br>Gift Card",
+            "html" => "Win a $1,500<br>Gift Card",
             "class" => "five",
             "image" => "refer/winston@2x.png"
         },
