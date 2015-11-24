@@ -256,7 +256,7 @@ html.home{
 }
 
 #refer .header .content{
-	width: 650px;
+	width: 611px;
 	margin: 0 auto;
 }
 
@@ -269,10 +269,13 @@ html.home{
 }
 
 #refer .header .byline{
-	font-size: 14px;
 	float: left;
+	color: #FFF;
+	font-weight: 500;
+	text-transform: uppercase;
+	line-height: 50px;
+	font-size: 14px;
 	width: 400px;
-	color: #white;
 }
 
 #refer .header .logo{
