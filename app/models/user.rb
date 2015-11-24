@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
             'count' => 1,
             "html" => "Win a $100<br>Gift Card",
             "class" => "three",
-            "image" =>  "refer/ref@2x.png"
+            "image" =>  "refer/blade-explain@2x.png"
         },
         {
             'count' => 5,
