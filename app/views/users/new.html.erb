@@ -1,6 +1,6 @@
 <div class="hero">
-    <p class="large brandon">ECOFY is live</p>
-    <p class="small brandon">To live life in a way that leaves <br>behind a world worth living in.</p>
+    <p class="large brandon">Together We Can Change the World</p>
+    <p class="small brandon">ECOFY: To live life in a way that leaves <br>behind a world worth living in.</p>
 </div>
 
 <div class="form-wrap clearfix <%= "ended" if Rails.application.config.ended %>">
@@ -11,7 +11,7 @@
         <p class="again brandon">Thank You Again!</p>
     <% else %>
         <div class="key"></div>
-        <p class="byline brandon">Be the first to know</p>
+        <p class="byline brandon">Join the Movement</p>
         <%= form_for @user, :url => { :action => "create" } do |f| %>
             <%= f.text_field :email, :placeholder => "Enter Email", :class => "email brandon" %>
             <input class="submit brandon" name="commit" type="submit" value="Step Inside" />
