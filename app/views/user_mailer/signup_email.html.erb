@@ -17,7 +17,7 @@
                     <tr>
                         <td style="padding: 27px 0 27px;">
                             <center>
-                                <%= image_tag("logo.png", alt="ECOFY" style="display: block; margin: 0 auto; padding: 0; border: 0;") %> 
+                                <%= image_tag("logo.png", :alt=>"ECOFY", :style=>"display: block; margin: 0 auto; padding: 0; border: 0;") %> 
                             </center>
                         </td>
                     </tr>
@@ -33,7 +33,7 @@
                     <tr>
                         <td style="padding: 22px 0 0;">
                             <center>
-                                <%= image_tag("harrys-is-coming.jpg", alt="ECOFY is coming! Join the Movement." style="display: block; margin: 0 auto; padding: 0; border: 0;") %> 
+                                <%= image_tag("harrys-is-coming.jpg", :alt=>"ECOFY is coming! Join the Movement.", :style=>"display: block; margin: 0 auto; padding: 0; border: 0;") %> 
                             </center>
                         </td>
                     </tr>
@@ -42,7 +42,7 @@
                     <tr>
                         <td style="padding: 60px 0 0;">
                             <center>
-                            	<%= image_tag("refer.jpg", alt="Refer Friends, Earn Prizes" style="display: block; margin: 0 auto; padding: 0; border: 0;") %> 
+                            	<%= image_tag("refer.jpg", :alt=>"Refer Friends, Earn Prizes", :style=>"display: block; margin: 0 auto; padding: 0; border: 0;") %> 
                             </center>
                         </td>
                     </tr>
@@ -63,13 +63,13 @@
                                 <tr>
                                     <td width="80" align="right">
                                         <a href="http://www.facebook.com/sharer/sharer.php?u=http://go.ecofy.com?ref=<%= CGI::escape(@user.referral_code) %>&title=ECOFY" style="outline: 0; border: 0;" target="_blank">
-                                            <%= image_tag("facebook.jpg", alt="Share on Facebook" style="display: block; margin: 0 auto; padding: 0; border: 0;") %> 
+                                            <%= image_tag("facebook.jpg", :alt=>"Share on Facebook", :style=>"display: block; margin: 0 auto; padding: 0; border: 0;") %> 
                                         </a>
                                     </td>
                                     <td width="20"></td>
                                     <td width="80">
                                         <a href="http://twitter.com/share?url=http://go.ecofy.com?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(@twitter_message) %>" style="outline: 0; border: 0;" target="_blank">
-                                            <%= image_tag("twitter.jpg", alt="Share on Twitter" style="display: block; margin: 0 auto; padding: 0; border: 0;") %> 
+                                            <%= image_tag("twitter.jpg", :alt=>"Share on Twitter", :style=>"display: block; margin: 0 auto; padding: 0; border: 0;") %> 
                                         </a>
                                     </td>
                                 </tr>
