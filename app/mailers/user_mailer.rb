@@ -1,5 +1,12 @@
-class UserMailer < ActionMailer::Base
-    default from: "ECOFY <info@ecofy.com>"
+class UserMailer < ActionMailer::Base.smtp_settings = { 
+:address => "smtp.gmail.com",
+:port => 587,
+:domain => "ecofy.com",
+:user_name => "eco",
+:password => "ralkwl1mlq", 
+:authentication => "plain",
+:enable_starttls_auto => true }
+    default from: "ECOFY <eco@ecofy.com>"
 
     def signup_email(user)
         @user = user
